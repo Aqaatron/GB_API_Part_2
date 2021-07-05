@@ -11,3 +11,5 @@ D:\GB_API_Part_2\prac1\prac1\obj\Debug\netcoreapp3.1\prac1.csproj.CoreCompileInp
 D:\GB_API_Part_2\prac1\prac1\obj\Debug\netcoreapp3.1\prac1.dll
 D:\GB_API_Part_2\prac1\prac1\obj\Debug\netcoreapp3.1\prac1.pdb
 D:\GB_API_Part_2\prac1\prac1\obj\Debug\netcoreapp3.1\prac1.genruntimeconfig.cache
+D:\GB_API_Part_2\prac1\prac1\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\GB_API_Part_2\prac1\prac1\obj\Debug\netcoreapp3.1\prac1.csproj.CopyComplete
