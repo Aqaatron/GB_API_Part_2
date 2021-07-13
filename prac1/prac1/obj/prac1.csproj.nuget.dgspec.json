@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\GB_API_Part_2\\prac1\\prac1\\prac1.csproj": {}
+    "D:\\GB_API_part_2\\prac1\\prac1\\prac1.csproj": {}
   },
   "projects": {
-    "D:\\GB_API_Part_2\\prac1\\prac1\\prac1.csproj": {
+    "D:\\GB_API_part_2\\prac1\\prac1\\prac1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GB_API_Part_2\\prac1\\prac1\\prac1.csproj",
+        "projectUniqueName": "D:\\GB_API_part_2\\prac1\\prac1\\prac1.csproj",
         "projectName": "prac1",
-        "projectPath": "D:\\GB_API_Part_2\\prac1\\prac1\\prac1.csproj",
+        "projectPath": "D:\\GB_API_part_2\\prac1\\prac1\\prac1.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "D:\\GB_API_Part_2\\prac1\\prac1\\obj\\",
+        "outputPath": "D:\\GB_API_part_2\\prac1\\prac1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",

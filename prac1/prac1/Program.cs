@@ -13,9 +13,13 @@ namespace prac1
         {
             HttpClient client = new HttpClient();
 
-            StreamWriter SW = new StreamWriter(new FileStream("Result.txt", FileMode.Create, FileAccess.Write));
+            using StreamWriter SW = new StreamWriter(new FileStream("Result.txt", FileMode.Create, FileAccess.Write));
 
-            for (int i = 4; i < 14; i++)
+            int startId = 4;
+
+            int finishId = 14;
+
+            for (int i = startId; i < finishId; i++)
             {
                 HttpResponseMessage response = await client.GetAsync("https://jsonplaceholder.typicode.com/posts/" + i.ToString());
 
@@ -27,22 +31,20 @@ namespace prac1
 
                     var post = await JsonSerializer.DeserializeAsync<Post>(json);
 
+                    await SW.WriteLineAsync(post.userId.ToString());
 
-                    SW.WriteLine(post.userId.ToString());
+                    await SW.WriteLineAsync(post.id.ToString());
 
-                    SW.WriteLine(post.id.ToString());
+                    await SW.WriteLineAsync(post.title);
 
-                    SW.WriteLine(post.title);
+                    await SW.WriteLineAsync(post.body);
 
-                    SW.WriteLine(post.body);
+                    await SW.WriteLineAsync();
 
-                    SW.WriteLine();
-
-
-
-
+                    
                 }
             }
+
             SW.Close();
 
 
